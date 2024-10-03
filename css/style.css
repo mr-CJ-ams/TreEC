@@ -135,6 +135,7 @@ h1, h2, h3, h4, h5, h6, p{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 100px;
     }
 
     .header-text{
@@ -199,9 +200,9 @@ h1, h2, h3, h4, h5, h6, p{
         text-align: center;
         margin-top: 80px;
         margin-bottom: 80px;
-        font-size: 2.5rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         /* width: 380px; */
         /* border-style: solid; */
     }
@@ -214,7 +215,7 @@ h1, h2, h3, h4, h5, h6, p{
     }
     
     .about-box{
-        width: 350px;
+        width: 250px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -227,6 +228,7 @@ h1, h2, h3, h4, h5, h6, p{
     .about-box h2,
     .about-box p{
         /* border-style: solid; */
+        font-size: 1.1rem;
         padding-left: 2.1rem;
         padding-right: 2.1rem;
     }
@@ -254,15 +256,16 @@ h1, h2, h3, h4, h5, h6, p{
     
     .box-2{
         height: 320px;
-        width: 420px;
+        width: 350px;
         border-radius: 20px;
         background: linear-gradient(270deg, #007D6E 0%, #5EB47C 100%);
     }
     
     .about-icon{
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
         background: transparent;
+        margin-top: 5px;
     }
 }
 
